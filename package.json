@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-vue-express-mongo",
+  "version": "1.0.0",
+  "description": "fullstack vue express mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulfnb/Fullstack-Vue-Express-Mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulfnb/Fullstack-Vue-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/wulfnb/Fullstack-Vue-Express-Mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
